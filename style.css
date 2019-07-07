@@ -1,0 +1,35 @@
+body {
+
+background-color:#00000054;
+
+}
+#div1
+{
+    background-color:#a51919;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    height: 80%;
+    
+
+}
+.info{
+    
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color:rgb(253, 253, 253);
+    border-style:dashed;
+    
+}
+.info:hover{
+  background-color: rgb(192, 219, 38);
+  font-size: 20px;
+}
+.info:active{
+    background-color: rgb(134, 202, 56);
+  }
