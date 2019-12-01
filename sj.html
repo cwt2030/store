@@ -1,0 +1,213 @@
+<html>
+<head>
+            <!--link css sheet -->
+
+    <link rel="stylesheet"  href="style.css" >
+
+            <!--link JS sheet -->
+    <script src=javascript.js></script>  
+
+            <!--link  sheet Google Font APIS -->
+
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+
+
+</head>
+<body>
+
+
+
+        <div class="fonts">
+
+              <p> welcome to javascript</p> 
+        </div>
+              <!-- one program block -->
+
+          <div class="div1">
+                                 <p >   for برنامج المعدل باستخدام  </p>
+
+                                 <p >  ادخل المعدل من   0 الى 100 </p>
+                
+                         <form name="f1">
+                                    <input type="text" name="z" >
+                                           <br>                         <br>
+
+                                  <input type="button" name="ok" value="اعرض  النتيجة" onclick="fun()">
+                                  <h3 id="p2">  التقدير:</h3>
+                         </form>
+                                          <br>
+ 
+         </div>
+              <!-- second program block -->
+
+         <div class="div2">
+                        <p >  برنامج الحاسبه باستخدام  </p>
+
+
+                        <p > ادخل الرقم الاول </p>
+                       
+                   <form name="f2">
+                           <input type="text" name="num1" >
+                           <br>
+                                <select name="op">
+                                        <option value="+">جمع</option>
+                                        <option value="-">طرح</option>
+                                        <option value="/">قسمه</option>
+                                        <option value="*">ضرب</option>
+
+                                </select>
+                                <br>
+                                <p > ادخل الرقم الثاني  </p>
+
+                           <input type="text" name="num2" >
+                           <br>
+                           <input type="button" name="ok" value="النتيجة" onclick="Calculator()">
+                                <div class="p">
+                                 <p id="g">الناتج: </p>
+                                </div>
+
+                   </form>
+                
+        
+        </div>
+        
+              <!-- third program block -->
+
+        <div class="div3">
+                 <p >  التاريخ و الوقت   </p>
+
+                 <p id="p1">date</p>
+                                    
+                 <p > التاريخ  </p>
+                
+         <br>
+ 
+         </div>
+              <!-- fore program block -->
+
+         <div class="div4">
+                        <p >     javascript    اساله في     </p>
+       
+                <p>١- السكربت حق التاريخ والوقت لا يمكن ربطه في صفحه ثاني  ؟ </p>
+                <p>٢- عند عرض النتيجه في التقدير   وحاولت مره اخرا ياتي بالنتيجه مره ثاني جنب بعض  </p>
+
+                       
+        
+         </div>
+                       <!-- 5 program block -->
+
+         <div class="div5">
+                <p >    For : javascript          </p>
+                <p>
+                <input type="button" name="ok" value="cleke here to sea For " onclick="forr()">
+                </p>
+                <p id="ValueFor">
+
+                </p>
+
+
+        </div>
+               <!-- 6 program block -->
+
+        <div class="div5">
+                <p >    while : javascript          </p>
+                <p>
+                <input type="button" name="ok" value="cleke here to sea While " onclick="whilee()">
+                </p>
+                <p id="ValueWhile">
+
+                </p>
+
+
+        </div>
+               <!-- 7 program block -->
+
+        <div class="div5">
+                <p >    Do while : javascript          </p>
+                <p>
+                <input type="button" name="ok" value="cleke here to sea Do while " onclick="DoWhile()">
+                </p>
+                <p id="ValueDo">
+
+                </p>
+
+
+        </div>
+               <!-- 8 program block -->
+
+        <div class="div6">
+                <p >    Lope    المصفوفة     </p>
+                <p>
+                <input type="button" name="ok" value="cleke here to sea Lope " onclick="arry()">
+                </p>
+                <p id="Lope">
+
+                </p>
+
+
+        </div>
+               <!-- 9 program block -->
+
+        <div class="div5">
+                <p >   checkuser التحقق من الدخول           </p>
+                <form name="f11">
+                <p>
+                        <p>اسم المستخدم</p>
+                <input type="text" name="username">
+                <br>
+                <br>
+                        <p>كلمة المرور  </p>
+                <input type="password" name="pass">
+
+                <br>
+                <br>
+                <input type="button" name="ok" value="Loge in" onclick="checkuser()">
+
+                  </form>
+                 
+        </div>
+
+               <!-- 10 program block -->
+
+               <div class="div7">
+                        <p >   الصوره والتحكم بها فيJS            </p>
+                        <form name="f111">
+                        <img  src="1.png" width="100" height="100" onmouseover="bigImg(this)" onmouseout="resetImg(this)"  ondblclick="o(this)">
+                             
+                          </form>
+                         
+                </div>
+                <div class="div7">
+                                <p >  (تغيير الصوره بالضغط عليها )  الصوره والتحكم بها فيJS            </p>
+
+                                 
+
+                                <img  src="1.png" width="100" height="100"  onclick="chingeImg(this)"  >
+                                     
+                                
+                                 
+                 </div>
+                                <!-- 11 program block -->
+
+        <div class="div5">
+                        <p >    Array          </p>
+                        <p>
+                        <input type="button"   value="لاضافة اسم جديد في المصفوفه اضغط هنا " onclick="array1(this)">
+                        </p>
+                        <p id="newarray">
+        
+                        </p>
+        
+        
+                </div>
+        
+        
+        <script>
+                        day=new Date();
+                    document.getElementById("p1").innerHTML +=day ;
+        </script>
+
+       
+
+</body>
+</html>

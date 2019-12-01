@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset='utf-8'>
+     <title>table Title</title>
+   
+    <style>
+        table{border: solid;}
+    th,tr,td{height: 200px;border:3px solid rgb(190, 32, 32); width: 200px; text-align: center;}
+   td:hover{background: chartreuse;}
+   th:hover{background:rgb(214, 13, 13)}
+   table:hover{background:rgb(223, 20, 20)}
+   .ta{border=10}
+
+    </style>
+</head>
+<body>
+
+       
+
+
+      
+        <table class="ta">
+                <tr>
+                        <th>الاول </th>
+                        <th>الثاني  </th>
+                        <th>الثالث  </th>
+                </tr>
+                        <table>
+                <tr>
+                        <td>1الاول </td>
+                        <td>2الثاني  </td>
+                        <td>الثالث3  </td>
+                </tr>
+                <tr>
+                        <td>1الاول </td>
+                        <td>2الثاني  </td>
+                        
+                </tr>
+           
+
+     </table>
+
+     <p id="p1">date</p>
+     <script>
+     day=new Date();
+        document.getElementById("p1").innerHTML +=day ;
+     </script>
+       
+</body>
+</html>
